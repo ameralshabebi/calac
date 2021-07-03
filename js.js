@@ -17,6 +17,7 @@ function addNewDoggo() {
       img.alt = "Cute doggo";
       doggos.appendChild(img);
      gif.classList.remove("active")
+     console.log("hi")
     });
     }
 
