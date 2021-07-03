@@ -1,10 +1,10 @@
-const DOG_URL = "https://dog.ceo/api/breeds/image/random";
+const DOG_URLf = "https://dog.ceo/api/breeds/image/random";
 
 const doggos = document.querySelector(".dog-con");
 const gif = document.querySelector(".gif");
 function addNewDoggo() {
   gif.classList.add("active");
-  const promise = fetch(DOG_URL);
+  const promise = fetch(DOG_URLf);
   promise
     .then(function(response) {
       const processingPromise = response.json();
